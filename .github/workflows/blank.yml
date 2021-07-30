@@ -1,0 +1,14 @@
+vars/main.yml
+
+---
+project_files:
+  files:
+    - src: "examplefile1.txt"
+      dst: "~/examplefile1.txt"
+      mode: '0755'
+      force: false
+  templates:
+    - src: "templateexample.txt.j2"
+      dst: "~/templateexample.txt"
+      mode: '0755'
+      force: false
